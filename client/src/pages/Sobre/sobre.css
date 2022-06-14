@@ -1,0 +1,135 @@
+/*{margin: 0; padding: 0;} */ /*- inicia todos os elementos com margin 0 e padding 0 */
+
+.container-principal{font-family: "Verdana"; color: #000;}
+
+/* definir as propriedades do topo */
+
+header {width: 100%; height: 60px; background-color: #00ffff; position: relative; top: 0;} 
+
+/* definir as propriedades da imagem fundo da pagina */
+
+#fundo {background-color: #00ffff; width: 100%;}
+#fundo img {background-color: #ffff; width: 100%; position: absolute; top: 50%; right: 0%; opacity: 15%;}
+
+/* definir as propriedades do menu */
+
+nav {position: absolute; right: -10px; bottom: -05px;} 
+nav ul li {float: left; position: relative;  color: #74caff; width: auto; margin: 0.8em; font-size: 1.5em; font-family: "verdana"; list-style-position: outside; }
+nav ul li a {text-decoration: none; color: #000; }
+nav ul li a:hover {color: #00ff}
+
+/* definir as propriedades da imagem principal */
+
+#banner{width: 85%;}
+#banner img {width: 30%; position: absolute; margin-left: 33%; margin-bottom: -10%;}
+
+/* definir as propriedades dos pop" ups */
+
+.modalDialog {
+    position: fixed;
+    font-family: "Verdana";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #87cefae0;
+    z-index: 9999;
+    opacity: -5;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: none;
+}
+
+.modalDialog:target {
+    display: block;
+    opacity: 2;
+    pointer-events: auto;
+}
+
+.modalDialog div {
+    width: 700px;
+    position: relative;
+    margin: 3% auto;
+    padding: 0px 30px 20px 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 20px;
+    background-color: #d1e9f8;
+}
+
+.modalDialog p {
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.modalDialog img {
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+}
+
+.close {
+    background-color: hsl(240, 11%, 69%);
+    color: #000;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close:hover {
+    background-color: #87CEFA;  
+}
+
+/* defininir a cor de fundo da página container-principal */
+.color-page {background-color: #00ffff;}
+
+/* define a cor de fundo das páginas Cadastro Sobre e Contato */
+.color-page {background-color: #00ffff;}
+
+/* definir as propriedades das imagens de titulo */ 
+.img-titulo {width: 15%; height: auto; margin-bottom: 10px; position: relative; float: left; margin-right: 05%;}
+.img-titulo img {width: 50%; margin-left: 10%; margin: top 50px;}
+
+/* definir as propriedades da página Cadastro */
+#Cadastro {width: 50%; position: relative; float: left;}
+#Cadastro .config-clientes {width: 45%; border: 1% solid #00ffff; margin-left: 20%; padding: 0%; float: left; margin-top: 30px; background-color: rgb(247, 185, 185);}
+#Cadastro .config-clientes img {width: 40%; margin-left: 25%; margin-bottom: 10px;}
+#Cadastro .config-clientes p {width: 90%; margin-left: 5%; font-size: 1.2em; margin-bottom: 20px; text-align: center;}
+#Cadastro .config-clientes p a{color: #00ffff;}
+
+/* definir as propriedades da página Sobre */
+#container-Sobre {width: 100%; margin-left: 5%; float: left; position: relative; height: 80%; background-color: #fff;}
+#txt-Sobre {width: 100%; float: left; position: relative; padding: 0%;}
+#txt-Sobre p {width: 50%; margin-right: 100%; position: relative; float: left;}
+#txt-Sobre dl {width: 50%;}
+#img-conteudo-Sobre {width: 45%; position: relative; float: left;}
+#img-conteudo-Sobre img {width: 100%;}
+
+/* definir as propriedades da página Contato */
+
+#txt-Contato {width: 100%; height: 100%;}
+
+#txt-Contato form {width: 38%; position: relative; float: left; background-color: #fff; padding: 2%; top: 5%; min-height: 400px;}
+
+#txt-Cont#Cadastro .config-clientes ato form label {font-weight: bold;}
+
+#txt-Contato form input {max-width: 100%; width: 99%; height: 30px; margin-top: 10px; margin-bottom: 15px; border: solid #b50909 1px; padding-left: 1%;}
+
+#txt-Contato form textarea {max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%; min-height: 100px;}
+
+#txt-Contato form button {width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.5em; padding: 15px 0; margin-left: 35%; margin-top: 1%;}
+
+#txt-Contato #conta-data{ width: 25%; position: relative; float: left; padding: 0%; background-color: #b13030; color: #fff; top: 5%; margin-left: 1.5%; height: 450px; text-align: center;}
+#txt-Contato #conta-data h3{ color: #fff; text-align: center;}
+#txt-Contato #conta-data h5{ margin-top: 6%; margin-bottom: 4%; vertical-align: auto;}
+#txt-Contato #conta-data h5{ width: 100px;}

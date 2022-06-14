@@ -1,0 +1,27 @@
+/* definir as propriedades do menu */
+
+nav {float: right; position: relative; right: -10px; bottom: 0px;} 
+nav ul li {float: left; position: relative;  color: #00ffff; width: auto; margin: 0.8em; font-size: 1.8em;font-family: 'Franklin Gothic Medium', Arial black ;}
+nav ul li a {text-decoration: #000; color: #000; }
+nav ul li a:hover {color: #00ff}
+
+
+/* definir as propriedades da página Contato */
+
+#txt-Contato {width: 100%; height: 100%;}
+
+#txt-Contato form {width: 38%; position: relative; float: left; background-color: #fff; padding: 2%; top: 5%; min-height: 400px;}
+
+#txt-Cont#Cadastro .config-clientes ato form label {font-weight: bold;}
+
+#txt-Contato form input {max-width: 100%; width: 99%; height: 30px; margin-top: 10px; margin-bottom: 15px; border: solid #b50909 1px; padding-left: 1%;}
+
+#txt-Contato form textarea {max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%; min-height: 100px;}
+
+#txt-Contato form button {width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.5em; padding: 15px 0; margin-left: 35%; margin-top: 1%;}
+
+#txt-Contato #conta-data{ width: 25%; position: relative; float: left; padding: 0%; background-color: #b13030; color: #fff; top: 5%; margin-left: 1.5%; height: 450px; text-align: center;}
+#txt-Contato #conta-data h3{ color: #fff; text-align: center;}
+#txt-Contato #conta-data h5{ margin-top: 6%; margin-bottom: 4%; vertical-align: auto;}
+#txt-Contato #conta-data h5{ width: 100px;}
+
